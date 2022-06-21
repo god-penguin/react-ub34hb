@@ -2,7 +2,7 @@
   {
     "H/A": "A",
     "Team": "Torino",
-    "row": 225000,
+    "row": 20,
     "col": 1,
     "Result": "3"
   },
@@ -10,7 +10,7 @@
   {
     "H/A": "H",
     "Team": "Porto",
-    "row": 0,
+    "row": 2,
     "cold": 49,
     "Result": "3"
   }
