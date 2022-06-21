@@ -10,7 +10,7 @@ const DemoScatter = () => {
   }, []);
 
   const asyncFetch = () => {
-    fetch("sample.json")
+    fetch("https://raw.githubusercontent.com/god-penguin/react-ub34hb/master/sample.json")
       .then((response) => response.json())
       .then((json) => setData(json))
       .catch((error) => {
@@ -20,8 +20,8 @@ const DemoScatter = () => {
   const config = {
     appendPadding: 30,
     data,
-    xField: 'xG conceded',
-    yField: 'Shot conceded',
+    xField: 'row',
+    yField: 'col',
     colorField: 'Result',
     size: 5,
     shape: 'circle',
